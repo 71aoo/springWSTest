@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE x [ <!ENTITY xxe SYSTEM "http://127.0.0.1:8800/"> ]>
+<x>&xxe;</x>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.yourcompany.com/webservice"
            targetNamespace="http://www.yourcompany.com/webservice" elementFormDefault="qualified">
 
